@@ -8,5 +8,6 @@ module.exports = {
     'no-console': 'off',
     'simple-import-sort/imports': 0,
     "comma-dangle": 0,
+    'eol-last': ['error', 'always'],
   },
 }

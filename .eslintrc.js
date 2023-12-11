@@ -1,14 +1,12 @@
-/*eslint sort-imports: ["error", { "ignoreCase": true }]*/
-
 module.exports = {
   root: true,
   extends: ['plugin:@next/next/recommended', '@payloadcms'],
   ignorePatterns: ['**/payload-types.ts'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    'prettier/prettier': 0,
     'no-console': 'off',
-    "comma-dangle": "off",
-    "@typescript-eslint/comma-dangle": "off"
+    'simple-import-sort/imports': 0,
+    "comma-dangle": 0,
   },
 }
